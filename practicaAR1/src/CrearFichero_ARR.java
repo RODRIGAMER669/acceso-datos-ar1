@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 
 public class CrearFichero_ARR {
     public static void main(String[] args) throws Exception {
-        File file = new File("practicaAR1/src/Ficheros/Fichero.dat");
+        File file = new File("Fichero.dat");
         FileOutputStream fileOut = new FileOutputStream(file);
         DataOutputStream dataOS = new DataOutputStream(fileOut);
 
