@@ -1,18 +1,19 @@
-## Getting Started
+# Práctica Acceso a Datos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Piensa una información que te gustaría guardar en un fichero para poder manejarla. La información a guardar no puede ser referente ni a alumnos, ni a empleados. Tiene que poseer al menos
+cinco valores diferentes.
+Cada uno de esos 5 elementos a guardar debe tener otros 5 campos:
+- Un código (int)
+- Un nombre (string)
+- Otro campo (string)
+- Un campo (float)
+- Un quinto valor del tipo que quieras
+---
 
-## Folder Structure
+## Ejercicio1
 
-The workspace contains two folders by default, where:
+Realizar un programa JAVA (CrearFichero_XXX.java) que cree un fichero (.dat) que guarde
+esa información.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
