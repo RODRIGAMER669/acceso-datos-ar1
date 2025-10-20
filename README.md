@@ -15,5 +15,9 @@ Cada uno de esos 5 elementos a guardar debe tener otros 5 campos:
 Realizar un programa JAVA (CrearFichero_XXX.java) que cree un fichero (.dat) que guarde
 esa información.
 
+## Ejercicio2
+
+Realizar un programa JAVA(ModificarFichero_XXX.java) que permita modificar los datos
+guardados. El programa recibe desde la línea de comando, el código a modificar, y los campos a modificar. Si el código no existe se mostrará un mensaje indicándolo. Visualiza también los datos antiguos. 
 
 
