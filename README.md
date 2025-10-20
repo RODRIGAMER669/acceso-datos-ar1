@@ -23,5 +23,9 @@ guardados. El programa recibe desde la línea de comando, el código a modificar
 
 ## Ejercicio 3
 
-A partir de los datos del fichero creado XXXX.dat crear un programa JAVA(CrearFicheroXML_XXX.java) que cree un fichero llamado XXXX.XML usando DOM y con acceso aleatorio al fichero dat. 
+A partir de los datos del fichero creado XXXX.dat crear un programa JAVA(CrearFicheroXML_XXX.java) que cree un fichero llamado XXXX.XML usando DOM y con acceso aleatorio al fichero dat.
+
+## Ejercicio 4
+
+Mostrar el fichero XML creado anteriormente usando SAX y DOM (LeerFicheroXML_XXX.java). 
 
