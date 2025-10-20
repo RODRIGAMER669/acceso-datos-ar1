@@ -21,3 +21,7 @@ Realizar un programa JAVA(ModificarFichero_XXX.java) que permita modificar los d
 guardados. El programa recibe desde la línea de comando, el código a modificar, y los campos a modificar. Si el código no existe se mostrará un mensaje indicándolo. Visualiza también los datos antiguos. 
 
 
+## Ejercicio 3
+
+A partir de los datos del fichero creado XXXX.dat crear un programa JAVA(CrearFicheroXML_XXX.java) que cree un fichero llamado XXXX.XML usando DOM y con acceso aleatorio al fichero dat. 
+
