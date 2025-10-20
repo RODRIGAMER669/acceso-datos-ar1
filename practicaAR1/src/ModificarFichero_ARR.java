@@ -1,5 +1,6 @@
 /* Plnatilla:
  *  cd practicaAR1\src
+ * javac  ModificarFichero_ARR
  * java ModificarFichero_ARR 1 Patata Sandbox 10 S
  * 
  */
