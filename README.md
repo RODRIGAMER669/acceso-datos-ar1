@@ -29,3 +29,7 @@ A partir de los datos del fichero creado XXXX.dat crear un programa JAVA(CrearFi
 
 Mostrar el fichero XML creado anteriormente usando SAX y DOM (LeerFicheroXML_XXX.java). 
 
+## Ejercicio 5
+
+Convertir el fichero anterior (XXXX.xml) a través de un formato XSLT y un documento HTML
+con una tabla que contenga al menos el nombre y la combinación de otros campos.
