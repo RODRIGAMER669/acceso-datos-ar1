@@ -5,7 +5,6 @@
  * 
  */
 
-
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -14,12 +13,13 @@ public class ModificarFichero_ARR {
 
     public static void main(String[] args) {
         File file = new File("../../Fichero.dat");
+        // Guardamos en variables la información dada por el usuario
         int id = Integer.parseInt(args[0]);
         String nombre = args[1];
         String genero = args[2];
         float precio = Float.parseFloat(args[3]);
         char acabado = args[4].charAt(0);
-
+        // Tamaño de cada registro
         int registroTamano = 4 + 40 + 40 + 4 + 2;
 
         try (RandomAccessFile raf = new RandomAccessFile(file, "rw")) {

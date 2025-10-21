@@ -19,8 +19,9 @@ public class CrearFicheroXML_ARR {
             long posicion = 0; // inicio del archivo
 
             while (posicion < file.length()) {
-                file.seek(posicion); 
+                file.seek(posicion); // Nos posicionamos
 
+                // Leemos
                 int codigo = file.readInt();
                 String nombre = file.readUTF();
                 String genero = file.readUTF();

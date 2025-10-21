@@ -5,16 +5,16 @@ import java.io.FileOutputStream;
 
 public class CrearFichero_ARR {
     public static void main(String[] args) throws Exception {
-        File file = new File("Fichero.dat");
+        File file = new File("Fichero.dat"); // ponemos la ruta del archivo
         FileOutputStream fileOut = new FileOutputStream(file);
         DataOutputStream dataOS = new DataOutputStream(fileOut);
-
+        // Datos para agregar al fichero
         int[] codigo = {1,2,3,4,5};
         String[] nombre = {"Overwatch", "Fortnite", "God of War", "Valorant", "Minecraft"};
         String[] genero = {"Heroe Shooter","Battle Royale", "Singleplayer", "Tactical Shooter", "Sandbox"};
         Float[] precio = {0f, 0f, 60f, 0f, 30f};
         char[] acabado = {'S','S','N','N', 'S'};
-
+        // Ciclo para implementar la información
         for(int i = 0; i<5;i++){
             
             dataOS.writeInt(codigo[i]);
