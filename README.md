@@ -1,13 +1,28 @@
 # Práctica Acceso a Datos
 
-Piensa una información que te gustaría guardar en un fichero para poder manejarla. La información a guardar no puede ser referente ni a alumnos, ni a empleados. Tiene que poseer al menos
-cinco valores diferentes.
-Cada uno de esos 5 elementos a guardar debe tener otros 5 campos:
-- Un código (int)
-- Un nombre (string)
-- Otro campo (string)
-- Un campo (float)
-- Un quinto valor del tipo que quieras
+
+## Introducción
+
+Este proyecto sobre acceso a datos, se borda diferentes requisitos sobre como acceder a los documentos de distintos métodos y según el más conveniente. Depende de lo que tengamos o necesitemos se realizará una cosa u otra.
+
+La temática del proyecto es sobre videojuegos ya que es un tema que me gusta aunque tampoco requiera de tanta información para poder realizar el proyecto. Tenemos 5 elementos con 5 campos:
+ - Una id (int)
+ - Un nombre (string)
+ - Un género (string)
+ - Un precio (float)
+ - Si el juego fue completado (char)
+
+## Índice de los archivos
+
+> 1. `CrearFichero_ARR.java` : correponde al ejercicio 1 donde crear un fichero data con los datos que queremos introducir.
+
+> 2. `ModificarFichero_ARR.java` : corresponde al ejercicio 2 donde modificamos los datos del fichero anterior mencionado, donde el usuario tiene que introducir el `código` del juego e introducir los demás valores.
+
+> 3. `CrearFicheroXML_ARR.java` : corresponde al ejercicio 3 donde se lee el fichero data y crea un fichero XML usando el DOM y el acceso aleatorio a partir del fichero data.
+
+> 4. `LeerFicheroXML_ARR.java` : correponde al ejercicio 4 donde se lee el fichero XML e imprime por la terminal el contenido de ese fichero. También se requiere de `GestionContenido.java` para leer los datos.
+
+> 5. `Transformador_ARR.java` : corresponde al ejercicio 5 donde tenemos un fichero xml y queremos con una plantilla `videojuegosPlantilla.xsl` realizar una tabla en un html.
 ---
 
 ## Ejercicio1
