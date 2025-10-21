@@ -5,6 +5,10 @@
 
 Este proyecto sobre acceso a datos, se borda diferentes requisitos sobre como acceder a los documentos de distintos métodos y según el más conveniente. Depende de lo que tengamos o necesitemos se realizará una cosa u otra.
 
+Para este proyecto se ha realizado con el control de versiones Git para aprender sobre la herramienta y tener en la nube los archivos por si acaso.
+
+> [Link del proyecto](https://github.com/RODRIGAMER669/acceso-datos-ar1)
+
 La temática del proyecto es sobre videojuegos ya que es un tema que me gusta aunque tampoco requiera de tanta información para poder realizar el proyecto. Tenemos 5 elementos con 5 campos:
  - Una id (int)
  - Un nombre (string)
